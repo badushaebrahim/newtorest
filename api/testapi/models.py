@@ -8,5 +8,3 @@ class Items(models.Model):
     discription = models.TextField()
     persentage = models.DecimalField(max_digits=100,decimal_places=2,default=0.00)
     status = models.BooleanField()
-    
-    
